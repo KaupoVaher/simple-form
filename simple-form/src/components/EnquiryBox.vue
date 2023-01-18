@@ -1,36 +1,57 @@
 <template>
-  <div class="row">
-    <div class="col-12">
 
-      <div class="text-start px-4 d-grid gap-3 ">
-        <h3>Submit a Ticket</h3>
-        <div class="d-grid gap-0">
-          <label class="col-form-label col-form-label-lg">First name</label>
-          <input type="text" class="form-control form-control-lg">
-        </div>
-        <div class="d-grid gap-0">
-          <label class="col-form-label col-form-label-lg">Activehosted URL</label>
-          <input type="text" class="form-control form-control-lg">
-        </div>
-        <div class="d-grid gap-0">
-          <label class="col-form-label col-form-label-lg">Message</label>
-          <textarea type="text" class="form-control form-control-lg"></textarea>
-        </div>
-        <div class="text-start px-4 d-grid gap-0 container">
+  <link href="/style/submitATicket.css" rel="stylesheet" type="text/css">
 
-          <button class="btn btn-primary btn-lg"> Send Enquiry</button>
+      <div class="frame bottom-right">
+        <div class="title">
+        Submit a Ticket
+        </div>
+        <div class="margin-top">
+          <div class="label">
+            <label>First name</label>
+          </div>
+          <div>
+            <font-awesome-icon class="icon-fn" icon="fa-solid fa-eye-slash" />
+            <input type="text" class="input">
+
+          </div>
+
+        </div>
+        <div class="margin-top">
+          <div class="label">
+            <label>Activehosted URL</label>
+          </div>
+          <div>
+            <font-awesome-icon class="icon-au" icon="fa-solid fa-eye-slash" />
+            <input type="text" class="input">
+          </div>
+        </div>
+        <div class="margin-top">
+        <div class="label">
+          <label>Message</label>
+          </div>
+        <div>
+          <textarea class="text-area"></textarea>
+        </div>
         </div>
 
-    </div>
+        <div class="margin-top">
+          <button class="button">
+            <div id="text">
+              Send Enquiry
+            </div>
+          </button>
+        </div>
       </div>
-    </div>
+
+
 
 
 </template>
 
 <script>
 export default {
-  name: "EnquiryBox"
+  name: "EnquiryBox, App"
 }
 </script>
 

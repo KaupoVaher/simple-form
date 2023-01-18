@@ -1,0 +1,169 @@
+.frame{
+    position: relative;
+    background-color: #FFFFFF;
+    height: 691px;
+    width: 510px;
+    padding: 24px;
+    radius: 8px;
+
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 144px;
+    right: 43px;
+
+}
+.title{
+    width: 214px;
+    height: 45px;
+    margin-bottom: 40px;
+    margin-top: 16px;
+
+
+
+    font-family: 'Futura Std';
+    font-style: normal;
+    font-weight: 650;
+    font-size: 31.25px;
+    line-height: 45px;
+    /* identical to box height, or 144% */
+    color: #000000;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+}
+.label{
+    width: 462px;
+    height: 26px;
+    margin-bottom: 10px;
+
+
+
+    font-family: 'Futura Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5493px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    /* DigitalME Black 900 */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.input {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px;
+    gap: 8px;
+
+    width: 462px;
+    height: 48px;
+
+    /* DigitalME Black 300 */
+
+    border: 1px solid #B7B7B7;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.margin-top{
+    margin-top: 24px;
+}
+.text-area{
+    box-sizing: content-box;
+
+
+    width: 442px;
+    height: 196px;
+    padding: 8px 8px;
+
+    background: #FFFFFF;
+    border: 1px solid #B7B7B7;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.7747px 43.0987px;
+    gap: 10.77px;
+
+    width: 211.2px;
+    height: 48px;
+
+    /* DigitalME Blue 1300 */
+
+    background: #003D70;
+    border-radius: 8.081px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#text{
+    width: 125px;
+    height: 26px;
+
+    font-family: 'Futura Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5493px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.icon-fn {
+    position: absolute;
+    right: 50px;
+    top: 177px;
+}
+
+.icon-au {
+    position: absolute;
+    right: 50px;
+    top: 285px;
+}

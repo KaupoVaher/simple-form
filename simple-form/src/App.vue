@@ -1,41 +1,26 @@
 <template>
-  <div id="app" class="h-100">
-    <div class="d-flex justify-content-md-end">
-        <div class="col-md-9 h-100 d-flex justify-content-center align-items-center">
-          <div class="col-md-5 rounded px 5 py-4 shadow bg-white text-end">
-          <EnquiryBox />
-        </div>
-    </div>
-  </div>
+
+
+  <div>
+    <EnquiryBox />
   </div>
 
 
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
+
 import EnquiryBox from "@/components/EnquiryBox";
 
 export default {
   name: 'App',
   components: {
-    EnquiryBox
+     EnquiryBox
   }
 
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 
-.vue-bg {
-  background: bisque;
-}
 </style>
