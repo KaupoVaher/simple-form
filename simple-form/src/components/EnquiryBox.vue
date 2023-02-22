@@ -1,6 +1,6 @@
 <template>
 
-  <link href="/style/submitATicket.css" rel="stylesheet" type="text/css">
+  <link href="/style/EnquiryBox.css" rel="stylesheet" type="text/css">
 
       <div class="frame bottom-right">
         <div class="title">

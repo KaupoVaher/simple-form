@@ -1,13 +1,16 @@
 <template>
-<link href="/style/accesories.css" rel="stylesheet" type="text/css">
-<div>
-  <button class="round-btn">+</button>
-</div>
+<link href="/style/App.css" rel="stylesheet" type="text/css">
+  <div class="round-button">
+    <RoundButton />
+  </div>
 
   <div>
     <EnquiryBox />
   </div>
-
+  <div class="box"></div>
+  <div class="instant-answer">
+    <InstantAnswer />
+  </div>
 
 
 
@@ -15,17 +18,15 @@
 
 <script>
 
- import EnquiryBox from "@/components/EnquiryBox";
-
+ // import EnquiryBox from "@/components/EnquiryBox";
+ import RoundButton from "@/components/RoundButton.vue";
+import InstantAnswer from "@/components/InstantAnswer.vue";
 export default {
   name: 'App',
   components: {
-      EnquiryBox
+      // EnquiryBox,
+    RoundButton, InstantAnswer
   }
 
 }
 </script>
-
-<style>
-
-</style>

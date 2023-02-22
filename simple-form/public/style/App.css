@@ -1,0 +1,16 @@
+html,body {
+ background: blanchedalmond;
+}
+.round-button{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.box {
+    position: absolute;
+    left: 100px;
+    margin: auto;
+    height: 2000px;
+    width: 100px;
+    background: #003D70;
+}

@@ -1,0 +1,54 @@
+button {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-style: none;
+    background: #FFFFFF;
+    color: #1D93F6;
+    font-size: 80px;
+    align-items: center;
+    justify-content: center;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.icon{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    top: -27px;
+    bottom: 0;
+    margin: auto;
+}
+button:active{
+    transform: rotateZ(45deg);
+    background: #1D93F6;
+    color: #FFFFFF;
+    border-style: none;
+
+}
+
+.btn-text{
+    opacity: 1;
+    pointer-events: none;
+    position: relative;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    right: 0;
+    left: -190px;
+    bottom: 0;
+}
+.btn-text .button:hover {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
