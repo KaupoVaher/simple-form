@@ -1,0 +1,44 @@
+.white-btn-tutorials{
+    position: relative;
+    display: flex;
+    height: 72px;
+    width: 462px;
+    background: #006CC7;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+.frame-tutorials{
+    position: absolute;
+    align-items: center;
+    height: 731px;
+    width: 510px;
+    background: #FFFFFF;
+}
+.boxheading-tutorials{
+    position: relative;
+    margin-top: 32px;
+    margin-left: 26px;
+    font-size: 32px;
+    font-weight: 650;
+    line-height: 45px;
+}
+.btns-tutorials{
+    position: relative;
+    display: flex;
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-text-tutorials{
+    position: absolute;
+    left: 24px;
+    align-self: center;
+}
+.arrow-tutorials{
+    position: absolute;
+    right: 32px;
+    align-self: center;
+}

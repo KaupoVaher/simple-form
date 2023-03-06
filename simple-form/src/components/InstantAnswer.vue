@@ -1,11 +1,26 @@
 <template>
-  <link rel="stylesheet" href="/style/instant_answer/InstantAnswer.css">
+  <link rel="stylesheet" href="/style/InstantAnswer.css">
 <div class="frame-instant-answer">
-  <div class="boxheading">  </div>
-  <div>
-  <button class="blue-btn btns">Submit a Support Ticket</button>
-  <button class="blue-btn btns">Live Chat</button>
-  <button class="blue-btn btns">Tutorials</button>
+  <div class="boxheading">Instant Answer</div>
+  <div class = "btns">
+  <button class="blue-btn">
+    <div class="btn-text1">Submit a Support Ticket</div>
+    <div class="arrow">
+      <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
+    </div>
+  </button>
+    <button class="blue-btn">
+      <div class="btn-text1">Live Chat</div>
+      <div class="arrow">
+        <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
+      </div>
+    </button>
+    <button class="blue-btn">
+      <div class="btn-text1">Tutorials</div>
+      <div class="arrow">
+        <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
+      </div>
+    </button>
   </div>
 </div>
 

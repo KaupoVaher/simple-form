@@ -51,10 +51,6 @@
 
 <script>
 export default {
-  name: "EnquiryBox, App"
+  name: "EnquiryBox"
 }
 </script>
-
-<style scoped>
-
-</style>
